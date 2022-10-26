@@ -5,3 +5,46 @@ html {
     -o-background-size: cover;
     background-size: cover;
   }
+
+  .header-main{
+    display: flex;
+    color: bisque;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 8px #2e2d2d;
+  }
+
+  .logo{
+    align-content: center;
+    margin-bottom: -10px;
+  }
+  
+  .book-button{
+    padding: 15px;
+    display: flex;
+    color: bisque;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: 1px solid bisque;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .links{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 25px;
+    gap: 60px;
+
+  }
+
