@@ -3,7 +3,7 @@ html {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; 
   }
 
   .header-main{
@@ -13,10 +13,11 @@ html {
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     align-items: center;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
     padding-bottom: 20px;
     text-shadow: 2px 2px 8px #2e2d2d;
+    padding-left: 20px;
   }
 
   .logo{
@@ -85,7 +86,34 @@ html {
     background-color: bisque;
   }
   
+  /* Main Body CSS */
+  
+  .main-content{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgba(255, 228, 196, .4);
+    border-radius: 5px;
+  }
 
-  
-  
-  
+  .main-text{
+    display: flex;
+    padding: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-right: 300px;
+    flex: 1;
+  }
+
+  .main-image{
+    align-self: center;
+    padding-left: 20px;
+    padding-right: 90px;
+  }
+
+  .imageborder{
+    border-radius: 10px;
+  }
+
